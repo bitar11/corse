@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(form.jpg);
+    background-size: cover;
+}
+
+.caixa{
+    background: transparent;
+    border: 2px solid ;
+    border-radius: 5px;
+    width: 400px;
+    position: relative;
+    padding: 25px 25px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.caixa h1{
+    text-align: center;
+    size: 36px;
+    padding-bottom: 15px;
+}
+
+.caixa .input-text{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 30px ;
+    display: flex;
+    margin: 25px 0;
+    padding-left: 15px;
+}
+
+.input-text::placeholder{
+    color: black;
+    font-size: 16px;
+}
+
+.input i{
+    position: absolute;
+    right: 45px;
+    transform: translateY(-300%);
+    font-size: 20px;
+}
+
+.caixa .bt-link{
+    display: flex;
+    justify-content: space-between; 
+    margin: 15px 0;
+    color: black;
+}
+
+.caixa .bt-link a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bt-link a:hover{
+    text-decoration: underline;
+}
+
+.check{
+    cursor: pointer;
+    color: black;
+}
+
+.botom{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.conta{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+.conta p a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.conta p a:hover{
+    text-decoration: underline;
+}
